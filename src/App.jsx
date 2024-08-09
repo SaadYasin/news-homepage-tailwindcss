@@ -1,10 +1,15 @@
-
+import HeroSection from './components/HeroSection'
+import Header from './components/Header'
+import Steps from './components/Steps'
 const App =() => {
 
   return (
     <>
-      <div>
-        <h1 className="text-3xl font-bold text-green-600">News Homepage with Tailwindcss</h1>
+      <div className='bg-darkBg min-h-[100dvh'>
+        <Header />
+        <HeroSection />
+        <Steps />
+        
       </div>
       
     </>
