@@ -6,15 +6,15 @@ const Steps = () => {
       id="how-we-work"
       className="steps bg-orange-100/50 h-content py-16 mt-[80px] xl:mt-[100px] relative z-20"
     >
-      <div className="container flex flex-col items-center mx-auto">
+      <div className="flex flex-col items-center mx-auto">
         {/* Grid items */}
-        <h2 className="text-[36px] text-orange-600 font-semibold text-center mb-8">
+        <h2 className="text-[36px] font-primary text-orange-600 font-semibold text-center mb-8">
           How We Work
         </h2>
 
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-1 xl:grid-cols-3 gap-8">
           {/* Step 1 start */}
-          <div className="steps__step w-[350px] bg-accent-secondary/50 p-4 text-center rounded-md shadow-xl">
+          <div className="steps__step w-[325px] bg-accent-secondary/50 p-4 text-center rounded-md shadow-xl">
             <div className="mb-4">
               <RiCompasses2Line
                 size={36} // set custom `width` and `height`
@@ -23,14 +23,14 @@ const Steps = () => {
               />
             </div>
             <h3
-              className="h3 font-semibold mb-5 rtl:font-ara"
+              className="h3 text-[1.25rem] font-semibold mb-5 rtl:font-ara"
               data-i18n="step1"
             >
               Project Design & Planning
             </h3>
 
             <p
-              className="text-[18px] text-justify text-gray-800 mb-5 max-w-md mx-auto rtl:font-ara"
+              className="text-[1.125rem] font-secondary text-justify text-gray-800 mb-5 max-w-md mx-auto rtl:font-ara"
               data-i18n="step1_p"
             >
               Our team begins by meticulously designing and planning your
@@ -42,7 +42,7 @@ const Steps = () => {
           {/* Step 1 end */}
 
           {/* Step 2 start */}
-          <div className="steps__step w-[350px] bg-accent-secondary/50 p-4 text-center rounded-md shadow-xl">
+          <div className="steps__step w-[325px] bg-accent-secondary/50 p-4 text-center rounded-md shadow-xl">
             <div className="mb-4">
               <RiMagicLine
                 size={36} // set custom `width` and `height`
@@ -51,14 +51,14 @@ const Steps = () => {
               />
             </div>
             <h3
-              className="h3 font-semibold mb-5 rtl:font-ara"
+              className="h3 text-[1.25rem] font-semibold mb-5 rtl:font-ara"
               data-i18n="step1"
             >
               Purchasing Materials
             </h3>
 
             <p
-              className="text-[18px] text-justify text-gray-800 mb-5 max-w-md mx-auto rtl:font-ara"
+              className="text-[1.125rem] font-secondary text-justify text-gray-800 mb-5 max-w-md mx-auto rtl:font-ara"
               data-i18n="step1_p"
             >
               We source top-quality materials from trusted suppliers, ensuring
@@ -70,7 +70,7 @@ const Steps = () => {
           {/* Step 2 end */}
 
           {/* Step 3 start */}
-          <div className="steps__step w-[350px] bg-accent-secondary/50 p-4 text-center rounded-md shadow-xl">
+          <div className="steps__step w-[325px] bg-accent-secondary/50 p-4 text-center rounded-md shadow-xl">
             <div className="mb-4">
               <RiToolsLine
                 size={36} // set custom `width` and `height`
@@ -79,14 +79,14 @@ const Steps = () => {
               />
             </div>
             <h3
-              className="h3 font-semibold mb-5 rtl:font-ara"
+              className="h3 text-[1.25rem] font-semibold mb-5 rtl:font-ara"
               data-i18n="step1"
             >
               Project Execution
             </h3>
 
             <p
-              className="text-[18px] text-justify text-gray-800 mb-5 max-w-md mx-auto rtl:font-ara"
+              className="text-[1.125rem] font-secondary text-justify text-gray-800 mb-5 max-w-md mx-auto rtl:font-ara"
               data-i18n="step1_p"
             >
               With thorough planning and top-quality materials in place, our

@@ -2,3 +2,18 @@
 @tailwind components;
 @tailwind utilities;
 
+.btn {
+  @apply h-[45px] text-[18px] px-[20px] xl:text-[24px] xl:h-[65px] transition-all duration-300 text-white rounded-[8px] flex items-center gap-2;
+}
+
+.btn-submit {
+  @apply h-[35px] text-[18px] px-[20px] xl:text-[20px] xl:h-[45px] transition-all duration-300 text-white rounded-[8px] flex items-center gap-2;
+}
+
+.btn-primary {
+  @apply bg-primary hover:bg-primary-hover w-[180px] px-4;
+}
+
+.btn-accent {
+  @apply bg-accent hover:bg-accent-hover active:shadow-lg active:border-2 active:border-white;
+}
